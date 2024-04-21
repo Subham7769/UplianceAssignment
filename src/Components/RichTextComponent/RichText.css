@@ -1,0 +1,15 @@
+.editorContainer{
+  width: 100vw;
+  height: 9+0vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.editor {
+  width: 70vw;
+  border: 1px solid rgb(215, 213, 213);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  text-align: center;
+  height: 500px;
+}

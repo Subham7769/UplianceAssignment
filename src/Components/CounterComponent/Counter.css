@@ -1,0 +1,23 @@
+.Counter {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  height: 70vh;
+}
+.buttonContainer {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-around;
+}
+.buttonContainer button {
+  width: 10%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
