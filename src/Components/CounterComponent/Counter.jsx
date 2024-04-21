@@ -28,6 +28,13 @@ const Counter = () => {
   }, [count]);
 
   return (
+    <Box  sx={{
+        textAlign: 'center',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center'
+      }}
+    >
     <Box
       className="Counter"
       sx={{
@@ -52,6 +59,7 @@ const Counter = () => {
           -
         </Button>
       </Box>
+    </Box>
     </Box>
   );
 };
